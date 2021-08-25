@@ -1,4 +1,4 @@
-require('dotenv').config();
+require("dotenv").config();
 
 const express = require("express");
 const app = express();
@@ -9,5 +9,5 @@ app.use(express.json());
 app.use("/", route);
 
 app.listen(port, () => {
-  console.log('Aplicação rodando na porta ' + port);
+  console.log("Aplicação rodando na porta " + port);
 });

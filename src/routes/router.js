@@ -13,14 +13,14 @@ const postWallets = require("../app/controllers/wallets/postWallets");
 const deleteWallets = require("../app/controllers/wallets/deleteWallets");
 const putWallets = require("../app/controllers/wallets/putWallets");
 
-router.use("/api", getUsers)
-router.use("/api", postUsers)
-router.use("/api", deleteUsers)
-router.use("/api", putUsers)
+router.use("/api", getUsers);
+router.use("/api", postUsers);
+router.use("/api", deleteUsers);
+router.use("/api", putUsers);
 
-router.use("/api", getWallets)
-router.use("/api", postWallets)
-router.use("/api", deleteWallets)
-router.use("/api", putWallets)
+router.use("/api", getWallets);
+router.use("/api", postWallets);
+router.use("/api", deleteWallets);
+router.use("/api", putWallets);
 
-module.exports = router; 
+module.exports = router;
